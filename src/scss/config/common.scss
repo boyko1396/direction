@@ -1,0 +1,48 @@
+.content {
+  line-height: 1.44;
+  > :first-child {
+    margin-top: 0;
+  }
+  > :last-child {
+    margin-bottom: 0;
+  }
+  p {
+    margin: 0 0 1em;
+  }
+  a {
+    color: $blueColor;
+  }
+}
+
+.color-accent {
+  color: $accentColor !important;
+}
+
+.appeal-card {
+  &__inner {
+    display: flex;
+    align-items: flex-start;
+  }
+  &__picture {
+    max-width: 43rem;
+    margin: 0 6rem 0 0;
+    font-size: 0;
+    text-align: center;
+    flex: 0 0 43rem;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &__content {
+  }
+  &__title {
+    margin: 0 0 2rem;
+    font-size: var(--fs-4);
+    color: $accentColor;
+  }
+  &__text {
+    margin: 0;
+    letter-spacing: -.04em;
+  }
+}

@@ -1,0 +1,37 @@
+$siteResolution: 1px;
+$mainFont: 'Noto Sans';
+$mainWeight: 400;
+$lineHeightMedium: 1.2;
+$lineHeightTitle: 1.2;
+$lineHeightDefault: $lineHeightMedium;
+
+$containerWidth: 600rem;
+
+$radiusSm: 8rem;
+
+$whiteColor: #fff;
+$blackColor: #000;
+$redColor: #b00000;
+$grayColor: #e6e5e5;
+$blueColor: #2a4b9a;
+
+$fontFamily: $mainFont, sans-serif;
+$fontColor: $blackColor;
+$fontWeight: $mainWeight;
+$accentColor: $redColor;
+
+$transition: all .4s 0ms;
+
+:root {
+  --fs-default: 9rem;
+  --fs-1: 14rem;
+  --fs-2: 11rem;
+  --fs-3: 10rem;
+  --fs-4: 9rem;
+  --fs-5: 8rem;
+  --fs-6: 7rem;
+  --gap: 20rem;
+  --gap-: -20rem;
+  --gap-fluid: 40rem;
+  --gap-fluid-: -40rem;
+}
